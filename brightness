@@ -1,4 +1,6 @@
 #!/bin/bash
+# A script to display your current brightness setting.
+
 
 x=$(cat .nvidia-settings-rc | grep 'RedBrightness' | cut -d"=" -f 2)
 
