@@ -1,0 +1,5 @@
+#!/bin/bash
+
+x=$(cat .nvidia-settings-rc | grep 'RedBrightness' | cut -d"=" -f 2)
+
+echo "$x"
